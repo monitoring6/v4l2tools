@@ -8,7 +8,7 @@ v4l2tools
 ====================
 
 This is simple V4L2 tools based on libv4l2cpp.
-v4l2reduceFPS_jpeg program which reduces FPS to a given value is added in this fork.
+v4l2redfps_jpeg program which reduces FPS to a given value is added in this fork.
 
 Dependencies
 ------------
