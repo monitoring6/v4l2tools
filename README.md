@@ -57,7 +57,7 @@ Tools
  
 >	generate YUYV frames and write to a V4L2 output device
 
-- v4l2reduceFPS_jpeg :
+- v4l2redfps_jpeg :
  
 >	read from a V4L2 capture device, reduce framerate and write to a V4L2 output device
 

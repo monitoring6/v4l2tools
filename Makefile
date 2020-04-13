@@ -1,4 +1,4 @@
-ALL_PROGS = v4l2copy v4l2convert_yuv v4l2source_yuv v4l2dump v4l2reduceFPS_jpeg
+ALL_PROGS = v4l2copy v4l2convert_yuv v4l2source_yuv v4l2dump v4l2redfps_jpeg
 CFLAGS = -W -Wall -pthread -g -pipe $(CFLAGS_EXTRA) -I include
 RM = rm -rf
 CC = $(CROSS)gcc
@@ -124,7 +124,7 @@ v4l2uncompress_jpeg: src/v4l2uncompress_jpeg.cpp libyuv.a  libv4l2wrapper.a
 	$(CXX) -o $@ $(CFLAGS) $^ $(LDFLAGS) -ljpeg -I libyuv/include
 
 # Sleep for certain time tomatch the reduce FPS-> read V4L2 capture -> write V4L2 output
-v4l2reduceFPS_jpeg: src/v4l2reduceFPS_jpeg.cpp libv4l2wrapper.a
+v4l2redfps_jpeg: src/v4l2redfps_jpeg.cpp libv4l2wrapper.a
 	$(CXX) -o $@ $(CFLAGS) $^ $(LDFLAGS) -ljpeg
 	
 # try with opencv
