@@ -3,7 +3,7 @@
 	url = https://github.com/webrtc-uwp/libyuv
 [submodule "v4l2wrapper"]
 	path = v4l2wrapper
-	url = https://github.com/mpromonet/v4l2wrapper
+	url = https://github.com/monitoring6/libv4l2cpp
 [submodule "hevcbitstream"]
 	path = hevcbitstream
 	url = https://github.com/leslie-wang/hevcbitstream
