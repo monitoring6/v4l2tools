@@ -8,3 +8,4 @@ v4l2compress_x265
 v4l2compress_jpeg
 v4l2uncompress_jpeg
 *.a
+.vs
