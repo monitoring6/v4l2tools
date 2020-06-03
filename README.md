@@ -9,7 +9,8 @@
 v4l2tools
 ====================
 
-This is simple V4L2 tools based on libv4l2cpp
+This is simple V4L2 tools based on libv4l2cpp.
+v4l2redfps_jpeg program which reduces FPS to a given value is added in this fork.
 
 Dependencies
 ------------
@@ -45,6 +46,10 @@ Tools
  - v4l2source_yuv :
  
 >	generate YUYV frames and write to a V4L2 output device
+
+- v4l2redfps_jpeg :
+ 
+>	read from a V4L2 capture device, reduce framerate and write to a V4L2 output device
 
 Tools for Raspberry
 -------------------
