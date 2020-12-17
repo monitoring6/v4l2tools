@@ -92,7 +92,7 @@ int main(int argc, char* argv[])
 	initLogger(verbose);
 
 	// init V4L2 capture interface
-	V4L2DeviceParameters param(in_devname, 0, V4L2_PIX_FMT_MJPEG, 0, 0, verbose);
+	V4L2DeviceParameters param(in_devname, V4L2_PIX_FMT_MJPEG, 1920, 1080, 0, verbose);
 	V4l2Capture* videoCapture = V4l2Capture::create(param, ioTypeIn);
 
 	if (videoCapture == NULL)
